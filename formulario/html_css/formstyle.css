@@ -1,0 +1,83 @@
+
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    background: linear-gradient(rgb(201, 225, 233),rgb(222, 205, 223)); 
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    
+}
+
+a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color:rgb(156, 156, 156);
+}
+
+h1{
+    text-align: center;
+    margin-top: 60px;
+
+}
+
+form{
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 50px;
+    background: linear-gradient(rgb(196, 215, 250),rgb(224, 171, 240));
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+label{
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input[type="text"],
+textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size:large;
+}
+
+button[type="submit"]{
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
+
+button[type="list"]{
+    float: right;
+    margin-right: 20px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
